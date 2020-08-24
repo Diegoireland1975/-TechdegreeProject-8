@@ -47,6 +47,14 @@ body {
   display: none;
 }
 
+header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+}
+h1 {
+  font-weight: 300;
+}
 .card {
   border: solid rgba(0, 0, 0, 0.185) 2px;
   border-radius: 5px;
