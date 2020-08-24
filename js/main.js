@@ -32,7 +32,7 @@ function displayEmployees(employeeData) {
             <div class="text-container">
             <h2 class="name">${name.first} ${name.last}</h2>
             <p class="email">${email}</p>
-            <p class="adress">${city}</p>
+            <p class="address">${city}</p>
 
           </div>
         </div>
@@ -63,7 +63,7 @@ function displayModal(index) {
   }, ${state} ${postcode}</p>
                                   <p>Birthday: ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
                           </div>`;
-  overlay.classList.remove("hidden");
+  overLay.classList.remove("hidden");
   modalContainer.innerHTML = modalHTML;
 }
 
@@ -77,5 +77,5 @@ gridContainer.addEventListener("click", (e) => {
 });
 
 modalClose.addEventListener("click", () => {
-  overlay.classList.add("hidden");
+  overLay.classList.add("hidden");
 });
